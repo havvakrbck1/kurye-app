@@ -1,0 +1,15 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Sayfa scroll edildiğinde header'ın görünürlüğünü korumak için */
+header.sticky {
+    transform: translateY(0);
+    opacity: 1;
+}
